@@ -13,11 +13,11 @@
     <!-- This is to for illustrative purposes and content will be replaced by marketing -->
     <div class="tw-pt-12">
       <!-- Teams Body -->
-      <app-teams-content *ngIf="org === 'teams'"></app-teams-content>
+      <app-teams-content *ngIf="layout === 'teams'"></app-teams-content>
       <!-- Enterprise Body -->
-      <app-enterprise-content *ngIf="org === 'enterprise'"></app-enterprise-content>
+      <app-enterprise-content *ngIf="layout === 'enterprise'"></app-enterprise-content>
       <!-- Families Body -->
-      <app-families-content *ngIf="org === 'families'"></app-families-content>
+      <app-families-content *ngIf="layout === 'families'"></app-families-content>
     </div>
   </div>
   <div class="tw-w-1/2">

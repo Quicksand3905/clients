@@ -62,7 +62,6 @@ export class AvatarComponent implements OnChanges {
       svg = this.createSvgElement(this.svgSize, hexColor);
     } else if (this.id != null) {
       hexColor = Utils.stringToColor(this.id.toString());
-      svg = this.createSvgElement(this.svgSize, hexColor);
     } else {
       hexColor = Utils.stringToColor(upperCaseText);
       svg = this.createSvgElement(this.svgSize, hexColor);
